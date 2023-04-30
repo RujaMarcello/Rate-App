@@ -1,0 +1,57 @@
+.rateContainer {
+    padding: 40px;
+    padding-left:30px;
+    padding-right: 30px;
+}
+
+.rateContainer h2 {
+    color:white;
+}
+
+.rateContainer p {
+    color:#787e89;
+}
+.starBackground {
+ background-color: #282f37;
+ width: 40px;
+ height: 40px;
+ border-radius: 50%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.star{
+    background-color: #282f37;
+}
+
+.textArea {
+    margin-top:10px;
+}
+
+.buttonsArea {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10px;
+    gap:25px;
+}
+
+.paragraph {
+    width:350px ;
+}
+
+.submitButton {
+    background-color: #f97815;
+    color: white ;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    margin-top:20px;
+    width: 100%;
+}
+
+.submitButton:hover {
+    background-color: white ;
+    color: #f97815;
+}

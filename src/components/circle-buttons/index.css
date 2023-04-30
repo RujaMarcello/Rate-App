@@ -1,0 +1,21 @@
+.circleButton {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #282f37;
+    border-radius: 50%;
+    border: none;
+    color:#6e7480;
+}
+
+.circleButton:hover {
+    background-color: #7c8798;
+    color: white;
+}
+
+.circleButton:focus {
+    background-color: orange;
+    color: white;
+}
